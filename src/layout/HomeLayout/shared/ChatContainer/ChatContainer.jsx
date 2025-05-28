@@ -4,7 +4,7 @@ const ChatContainer = () => {
   return (
     <div className="border p-4 rounded-lg shadow-lg bg-white">
       <h2 className="text-center text-2xl">
-        Hello,{" "}
+        Hello,
         <span className="font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
           Sazol Sarker
         </span>
