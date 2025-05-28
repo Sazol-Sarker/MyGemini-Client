@@ -1,5 +1,6 @@
+import NavBar from "../../components/NavBar/NavBar";
 import Footer from "../../components/Footer/Footer";
-import NavBar from "../../components/NavBar/NavBAr";
+import ChatContainer from "./shared/ChatContainer/ChatContainer";
 
 const HomeLayout = () => {
   return (
@@ -8,9 +9,7 @@ const HomeLayout = () => {
         <NavBar></NavBar>
       </header>
       <main className="w-10/12 mx-auto flex-1">
-        <p>
-         Hello, Sazol
-        </p>
+        <ChatContainer></ChatContainer>
       </main>
       <footer >
         <Footer></Footer>
